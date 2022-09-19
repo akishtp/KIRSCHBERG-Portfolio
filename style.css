@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.landing {
+  min-height: calc(100vw / 2);
+  display: flex;
+  background-color: aquamarine;
+}
+.left-side {
+  width: 50%;
+  height: calc(100vw / 2);
+  background-color: darkblue;
+}
+.right-side {
+  width: 50%;
+  height: calc(100vw / 2);
+  background-color: darkorange;
+}
+.top-part {
+  display: flex;
+  height: 50%;
+}
+.top-left {
+  width: 50%;
+  background-color: tomato;
+}
+.top-right {
+  width: 50%;
+  background-color: silver;
+}
+.bottom-part {
+  display: flex;
+  height: 50%;
+}
+.bottom-left {
+  width: 50%;
+  background-color: darkolivegreen;
+}
+.bottom-right {
+  width: 50%;
+  background-color: violet;
+}
